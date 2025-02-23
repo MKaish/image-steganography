@@ -37,10 +37,10 @@ python image_steganography.py
 Example:
 ```
 Do you want to (1) Hide or (2) Extract a message? 1
-Enter the path of the cover image: input.png
-Enter the secret message: Hello, World!
-Enter a password to protect the message: secret123
-Enter the output image path: output.png
+Enter the path of the cover image: kaish1.jpg
+Enter the secret message: hii I'm kaish and this is a hidden message.
+Enter a password to protect the message: 1234
+Enter the output image path: msg image.png
 ```
 
 ### 2. Extract a Message
@@ -53,9 +53,9 @@ Enter the output image path: output.png
 Example:
 ```
 Do you want to (1) Hide or (2) Extract a message? 2
-Enter the path of the image with hidden message: output.png
-Enter the password to extract the message: secret123
-Extracted Message: Hello, World!
+Enter the path of the image with hidden message: msg image.png
+Enter the password to extract the message: 1234
+Extracted Message: hii I'm kaish and this is a hidden message.
 ```
 
 ## How It Works
